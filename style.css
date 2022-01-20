@@ -522,3 +522,78 @@ main-facuity-item  p {
 }
 
 
+
+
+/*FOOTER SECTION */
+
+
+.footer-section-items {
+    padding-top: 2rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    background-color:#2F343D;
+    
+}
+
+.footer-section-item {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-section-item p {
+    color: white;
+}
+
+.quick-links-list li::before {
+    content: "\2022";  
+    color:white; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .quick-connect-itmes {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+  .quick-links-list-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.quick-links-list-item {
+    margin-bottom: 0.8rem;
+}
+
+.quick-connect-item  {
+    color: white;
+}
+
+.space-between {
+    margin-top: 0.8rem;
+}
+.footer-section-item {
+ margin-left: 2rem;
+ margin-right: 2rem;
+}
+.main-footer-items {
+    display: flex;
+    height:3rem;
+    align-items: center;
+    justify-content:space-evenly;
+   background-color: #000000; 
+}
+
+.main-footer-item {
+    color:white;
+}
+.designed {
+    color:white;
+    opacity: 0.6;
+}
